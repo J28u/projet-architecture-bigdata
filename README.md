@@ -8,10 +8,11 @@ Agroalimentaire
   * Jupyter Notebook
   * Python
     - pyspark
+      
   * AWS 
-   - EC2
-   - S3
-   - EMR
+    - EC2
+    - S3
+    - EMR
 
 ## Mots-clés : 
 BigData, Cluster de Machines
@@ -31,11 +32,11 @@ Construire et tester une première version de l’architecture BigData nécessai
 ## Méthodologie suivie : 
 Pour tester cette architecture BigData, on ne va pas entraîner de modèle de classification mais simplement nettoyer et pré-traiter le jeu de données d’entrées puis enregistrer le résultat, le tout sur le cloud. 
 
-1. Tester le script pyspark en local :
-  *  nettoyage des données images
-  *  extraction des features (transfer learning avec modèle MobileNetV2)
-  *  réduction de dimensions (ACP)
-  *  stockage des données transformées
+ 1. Tester le script pyspark en local :
+   *  nettoyage des données images
+   *  extraction des features (transfer learning avec modèle MobileNetV2)
+   *  réduction de dimensions (ACP)
+   *  stockage des données transformées
 
 2. Choisir les services AWS adaptés à notre problématique :
   *  création compte AWS et création d’alertes dépassement de budget
