@@ -8,7 +8,10 @@ Agroalimentaire
   * Jupyter Notebook
   * Python
     - pyspark
-  * AWS (EC2, S3, EMR)
+  * AWS 
+   - EC2
+   - S3
+   - EMR
 
 ## Mots-clés : 
 BigData, Cluster de Machines
